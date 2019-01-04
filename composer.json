@@ -1,8 +1,8 @@
 {
-    "name": "topshelfcraft/wordsmith",
+    "name": "readtedium/wordsmith",
     "description": "...because you have the best words.",
     "type": "craft-plugin",
-    "version": "3.0.4",
+    "version": "3.0.4-dev",
     "keywords": [
         "craft",
         "cms",
@@ -28,7 +28,7 @@
         "tcb13/substringy": "^1.0",
         "davechild/textstatistics": "^1.0",
         "icanboogie/inflector": "^1.4",
-        "erusev/parsedown-extra": "^0.7.1",
+        "erusev/parsedown-extra": "^0.8.0-beta-1",
         "mundschenk-at/php-typography": "^6.0"
     },
     "repositories": [
@@ -54,6 +54,9 @@
             "smith": "topshelfcraft\\wordsmith\\services\\WordsmithService",
             "typography": "topshelfcraft\\wordsmith\\services\\TypographyService"
         },
-        "class": "topshelfcraft\\wordsmith\\Wordsmith"
+        "class": "topshelfcraft\\wordsmith\\Wordsmith",
+        "branch-alias": {
+              "dev-bugfix": "3.0.4-dev"
+            }
     }
 }
