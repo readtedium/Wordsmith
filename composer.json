@@ -2,6 +2,7 @@
     "name": "readtedium/wordsmith",
     "description": "...because you have the best words.",
     "type": "craft-plugin",
+    "version": "3.0.4-dev",
     "keywords": [
         "craft",
         "cms",
@@ -55,7 +56,7 @@
         },
         "class": "topshelfcraft\\wordsmith\\Wordsmith",
         "branch-alias": {
-              "dev-bugfix": "3.0.4-dev"
+              "dev-master": "3.0.4-dev"
             }
     }
 }
